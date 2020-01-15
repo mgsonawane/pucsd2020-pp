@@ -11,6 +11,10 @@ Assignment-001
 	Enter correct expression
 	44
 	Enter correct expression
+	q
+	Thanks
+	qwe
+	Thanks
 
 
 
