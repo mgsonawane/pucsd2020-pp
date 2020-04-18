@@ -1,0 +1,12 @@
+<div class='div1'>
+    <table  *ngFor="let item of lstt; let i = index" >
+            <tr >
+                <th>{{ item['id'] }}</th>
+                <th>{{ item['first_name'] }} </th>
+                <th>{{ item['last_name'] }} </th>
+                <th>{{ item['email'] }}</th>
+                <th> {{ item['contact_number'] }} </th>
+            </tr>
+    </table>
+</div>
+<router-outlet></router-outlet>

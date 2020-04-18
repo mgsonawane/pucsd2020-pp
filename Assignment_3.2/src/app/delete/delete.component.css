@@ -1,0 +1,12 @@
+.div1{
+
+    background-image: url('../../assets/delete.png');
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    padding: 50px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

@@ -1,0 +1,15 @@
+<html>
+    <body>
+    <div align="centre">HERE WE USE PUTT METHOD</div>
+        <div class="div1">
+            Enter first name<input type="text" #fname required> 
+            <div align="right">Enter contact number <input type="text" #cnum></div>
+            Enter last name <input type="text" #lname > 
+            <div align="right">Enter a password <input type="password" #pass1 minlength="8" ></div>
+            Enter email-id <input type="email" #email required > 
+            <div align="right">Enter above password again<input type="password" #pass2 ></div>
+            <div align="centre"> <input type="submit" value="success" (click)="sendd(fname.value,lname.value,email.value,cnum.value,pass1.value,pass2.value)" formvalidate></div>
+        </div>
+    </body>
+    <router-outlet></router-outlet>
+</html>

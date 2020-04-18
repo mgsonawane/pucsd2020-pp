@@ -1,0 +1,16 @@
+.div1{
+
+    background-image: url('../../assets/white_back.jpeg');
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+table,tr,th{
+    border: 1px solid black;
+    padding: 10px;
+    align-items: flex-end;
+    position: relative;
+    }
