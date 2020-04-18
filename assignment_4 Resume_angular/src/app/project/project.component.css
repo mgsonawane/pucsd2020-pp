@@ -1,0 +1,13 @@
+table,tr,th{
+    border: 1px solid black;
+    padding: 25px;
+    }
+    .img{
+        background-image: url('../../assets/iim1.jpeg');
+        height: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
