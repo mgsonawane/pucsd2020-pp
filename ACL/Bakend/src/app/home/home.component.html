@@ -1,0 +1,21 @@
+<html>
+<body class='m1'>
+ <div >
+   <input type='text' value="file/folder name"style="width: 80px;" #fname>
+   <select name='file' #ftype>
+     <option value="file">file</option>
+    <option value='folder'>folder</option>
+   </select>
+   <button (click)="createe(fname.value,ftype.value)">CreateIt</button>
+   <div align='right'><button (click)='back()'>Back</button></div>
+ </div>
+ <div *ngFor="let file of folder;let i=index" >
+   <img src='../../assets/folder' (dblclick)='nxt(i)' width="60" height="45" ><br>
+   {{ file }}
+ </div>
+ <div *ngFor="let file of files;let i=index">
+   <img src='../../assets/file.jpeg'  width="60" height="45" ><br>
+   {{ file }}
+ </div>
+</body>
+</html>

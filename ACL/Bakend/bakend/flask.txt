@@ -1,0 +1,12 @@
+
+	pip3 install Flask
+  568  sudo apt install python-pip
+  569  pip install flask
+  579  sudo apt upgrade 
+  582  pip install flask-mysqldb
+  583  pip install mysqlclient
+  584  sudo apt-get install python-pip python-dev libmysqlclient-dev
+  585  pip install flask-mysqldb
+  594  pip install MySQL-python
+  598  pip3 install -U flask-cors
+  600  pip3 install -U flask_jwt_extended

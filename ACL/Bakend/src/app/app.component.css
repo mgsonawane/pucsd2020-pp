@@ -1,0 +1,10 @@
+.m1{
+    background-image: url('../assets/pic2.jpg');
+    background-repeat: no-repeat;
+    /* background-color: Transparent; */
+    padding: 2%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
