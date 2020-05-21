@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <div class="m1" align="middle">
+            Enter first name<input type="text" #uname> <br>
+            Enter password   <input type="password" #pass ><br>
+            <select id="selectt" #utype>
+                <option value="">--Please choose an option--</option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select><br>
+            <input type="submit" value="sign in" (click)="send(uname.value,pass.value,utype.value)"> <br>
+            If you are new then you can
+            <input type="submit" value="sign Up" (click)="signup()">
+        </div>
+    </body>
+    <router-outlet></router-outlet>
+</html>

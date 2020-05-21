@@ -1,0 +1,11 @@
+<html>
+  <div class="m1">
+    <div class= "m1" align="right"><button (click)="back()">Back</button> </div>
+    <select #val1 (click)="send(val1.value)">
+      <option *ngFor="let usr of lst" value={{usr[0]}}>{{usr[1]}} </option>
+    </select>
+    <select #val2 (click)="send2(val2.value)">
+      <option *ngFor="let usr1 of lst1" value={{usr1[0]}}>{{usr1[0]}} </option>
+    </select>
+  </div>
+</html>

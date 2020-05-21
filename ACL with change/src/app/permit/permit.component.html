@@ -1,0 +1,20 @@
+<html>
+<body class='m1'>
+  <div align='right '><button value="Back" (click)='back()'>Back</button></div>
+    <select   #val1>
+      <option *ngFor="let user of lst;let i=index" value={{user[0]}}>{{user[1]}}</option>
+    </select>
+   select permission<br>
+   <select  #val2>
+     <option value="1">read only</option>
+    <option value='2'>write only</option>
+    <option value="3">Execute only</option>
+   <option value='12'>read,write</option>
+   <option value='13'>read,write,execute</option>
+   <option value='123'>read,write,execute</option>
+   </select>
+
+   <button value="OK" (click)='sub(val1.value,val2.value)' >Proceed</button>
+   <button value="OK" (click)='refresh()' >Reset</button>
+</body>
+</html>
